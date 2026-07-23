@@ -1,3 +1,4 @@
+'''
 #Exercício 1
 nome_empresa = "Tech Solutions"
 quantidade_clientes = 1542
@@ -26,3 +27,15 @@ print(cargo)
 
 empresa = 'Snake Data'
 print(type(empresa.upper()))
+
+'''
+
+#Semana 1 - Aula 2 - Exercício 3
+
+frutas = ["Maçã", "Banana", "Laranja"]
+
+print(frutas)
+
+frutas = ["Maçã", "Banana", "Laranja"]
+
+print(type(frutas))
