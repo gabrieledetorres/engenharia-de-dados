@@ -1,15 +1,79 @@
-# Engenharia de Dados
+# Python Fundamentos
 
-Este repositório documenta minha jornada de estudos em Engenharia de Dados, com foco na construção de uma base sólida em Python antes de avançar para bancos de dados, ETL, APIs, Cloud e Big Data.
+Este módulo reúne os fundamentos de Python que servirão como base para o restante da trilha de Engenharia de Dados.
 
-Cada etapa representa um conceito estudado, acompanhado de exercícios práticos, anotações e evolução do projeto.
+O objetivo não é apenas aprender a sintaxe da linguagem, mas compreender o modelo mental utilizado pelo Python para representar e manipular objetos.
 
 ---
 
-## 📂 Estrutura atual
+# Conteúdo estudado
+
+## Semana 1 — Dia 1
+
+### Conceitos
+
+- Variáveis
+- Objetos
+- Referências
+- Tipos de dados (`str` e `int`)
+- Funções
+- Métodos
+- Ordem de execução das funções
+- Introdução à Programação Orientada a Objetos (POO)
+
+### Métodos estudados
+
+- `print()`
+- `type()`
+- `upper()`
+
+### Principais aprendizados
+
+- Variáveis apontam para objetos.
+- Objetos possuem comportamentos (métodos).
+- O ponto (`.`) acessa algo pertencente ao objeto.
+- Os parênteses (`()`) executam uma função ou método.
+- `upper()` retorna um novo objeto sem alterar automaticamente o original.
+- O Python resolve expressões de dentro para fora.
+
+---
+
+## Semana 1 — Dia 2
+
+### Conceitos
+
+- Listas (`list`)
+- Coleções de objetos
+- Índices
+- Acesso por posição
+- Manipulação de listas
+
+### Métodos estudados
+
+- `append()`
+
+### Sintaxe estudada
+
+```python
+frutas[indice]
+```
+
+### Principais aprendizados
+
+- Uma lista também é um objeto.
+- Uma lista organiza outros objetos em uma sequência ordenada.
+- Os índices começam em `0`.
+- `append()` adiciona um elemento ao final da lista.
+- `print(lista)` imprime a coleção inteira.
+- `print(lista[indice])` imprime apenas o elemento daquela posição.
+- A variável continua apontando para a mesma lista após o uso de `append()`.
+
+---
+
+# Estrutura atual
 
 ```
-engenharia-de-dados/
+Python Fundamentos/
 │
 ├── README.md
 ├── main.py
@@ -18,69 +82,26 @@ engenharia-de-dados/
 
 ---
 
-## 📚 Conteúdo atual
+# Objetivo do módulo
 
-### Semana 1 — Fundamentos de Python
+Ao final deste módulo, pretendo dominar os fundamentos da linguagem Python para utilizá-la posteriormente em:
 
-No arquivo `main.py` foram revisados os seguintes conceitos:
-
-- Variáveis
-- Tipos de dados (`str` e `int`)
-- Função `print()`
-- Função `type()`
-- Métodos de objetos
-- Método `upper()`
-- Diferença entre funções e métodos
-- Ordem de execução de funções
-- Introdução ao conceito de Objetos em Python
-
----
-
-## 💻 Conceitos praticados
-
-Durante os exercícios foram explorados conceitos como:
-
-- declaração de variáveis;
-- impressão de valores;
-- identificação do tipo de um objeto;
-- utilização de métodos de strings;
-- diferença entre objeto e variável;
-- retorno de métodos;
-- introdução à Programação Orientada a Objetos (POO).
-
----
-
-## 🎯 Objetivo
-
-O objetivo deste projeto é construir uma base sólida em Python para posterior desenvolvimento em:
-
-- SQL
-- PostgreSQL
+- Manipulação de arquivos
+- SQL com Python
 - APIs
-- Docker
-- ETL
 - Pandas
+- ETL
 - PySpark
-- Cloud (AWS)
 - Engenharia de Dados
 
 ---
 
-## 📈 Status
+# Próximos tópicos
 
-✔️ Semana 1 - Dia 1 concluído
-
-Próximo tópico:
-
-- Listas (`list`)
-- Indexação
-- Métodos de listas
-- Coleções de objetos
-
----
-
-## 👩‍💻 Autora
-
-**Gabriele Torres**
-
-GitHub: https://github.com/gabrieledetorres
+- Métodos de listas (`insert`, `remove`, `pop`)
+- `len()`
+- Listas heterogêneas
+- Dicionários (`dict`)
+- Condicionais
+- Laços de repetição
+- Funções
